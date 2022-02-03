@@ -1,0 +1,27 @@
+/* ESTILOS CONTACTO */
+
+.contacto {
+    height: 90vh;
+}
+
+.formulario {
+    padding: 10px 500px 10px 15px;
+    @extend %estilosFormulario;
+}
+
+.comentario {
+    padding: 10px 500px 200px 15px;
+    @extend %estilosFormulario;
+}
+
+
+.enviarcontacto {
+    padding: 15px;
+    position: relative;
+    left: 700px;
+    border-radius: 10px;
+}
+
+.enviarcontacto:hover {
+    background-color: rgba(184, 149, 120, 0.411);
+}

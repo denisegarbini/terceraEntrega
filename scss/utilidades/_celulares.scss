@@ -1,0 +1,83 @@
+/* Responsive celulares: */
+
+@media (max-width: 576px) {
+
+    .header img {
+        height: 10vh;
+        width: 45vw;
+    }
+
+    .footer img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .historia {
+        font-size: 2vh;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .video {
+        width: 350px;
+        height: 230px;
+        margin-left: 0%;
+    }
+
+    .productos {
+        height: 105vh;
+    }
+
+    .imgprod {
+        position: relative;
+        left: 0%;
+    }
+
+    .botonprod {
+        background-color: none;
+    }
+
+    .mapas {
+        position: relative;
+        left: 0%;
+        width: 330px;
+        height: 230px;
+        padding: 10px;
+    }
+
+    .direccion {
+        font-size: 15px;
+        font-style: italic;
+        position: relative;
+        left: 2px;
+        list-style-type: none;
+    }
+
+    .contacto {
+        height: 70vh;
+    }
+    
+
+    .formulario {
+        width: 250px;
+        margin: 10px;
+        font-style: italic;
+        padding: 10px;
+    }
+    
+    .comentario {
+        width: 250px;
+        margin: 10px;
+        font-style: italic;
+        padding: 10px;
+    }
+    
+    
+    .enviarcontacto {
+        padding: 15px;
+        position: relative;
+        left: 200px;
+        border-radius: 2px;
+    }
+
+}

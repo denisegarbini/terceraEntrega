@@ -1,0 +1,68 @@
+/* Responsive tablets: */
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+
+    .footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .historia {
+        font-size: 2vh;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .video {
+        width: 500px;
+        height: 350px;
+        margin-left: 20%;
+    }
+
+    .imgprod {
+        position: relative;
+        left: 0%;
+    }
+
+    .botonprod {
+        background-color: none;
+    }
+
+    .mapas {
+        position: relative;
+        left: 5%;
+        width: 650px;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .direccion {
+        font-size: 25px;
+        font-style: italic;
+        position: relative;
+        left: 2px;
+        list-style-type: none;
+    }
+
+    .contacto {
+        height: 100vh;
+
+    }
+
+    .formulario {
+        
+        font-style: italic;
+    }
+
+    .comentario {
+        
+        font-style: italic;
+    }
+
+    .enviarcontacto {
+        padding: 20px;
+        position: relative;
+        left: 300px;
+        border-radius: 10px;
+    }
+}

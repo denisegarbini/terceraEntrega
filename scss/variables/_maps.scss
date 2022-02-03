@@ -1,0 +1,10 @@
+$textoResaltado: (
+    nav-link: black,
+    tip: rgba(184, 149, 120, 0.911),
+);
+
+@each $variable, $color in $textoResaltado {
+    .#{$variable}{
+        color: $color;
+    }
+}

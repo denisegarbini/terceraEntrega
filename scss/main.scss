@@ -1,0 +1,24 @@
+@import './variables/variables';
+@import './variables/extend';
+@import './variables/mixin';
+@import './variables/maps';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*PARTICIONES (archivos fuera del main, nombrados con _ previo)*/
+
+@import './utilidades/header';
+@import './utilidades/footer';
+@import './utilidades/index';
+@import './utilidades/nosotros';
+@import './utilidades/productos';
+@import './utilidades/locales';
+@import './utilidades/contacto';
+@import './utilidades/celulares';
+@import './utilidades/tablets';

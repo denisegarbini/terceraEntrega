@@ -1,0 +1,22 @@
+/* ESTILO HEADER */
+
+.header {
+    background-color: $beigeclaro;
+    border-bottom: solid 1px $beigeoscuro;
+    height: 10%;
+}
+
+.navbar {
+    background-color: $beigeclaro;
+}
+
+/* ESTILO GENERAL */
+main {
+    background-image: url(../img/fondos/fondoAcuarela1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    @include fontStyle ();
+}
